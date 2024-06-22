@@ -1,0 +1,413 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AB2FDDBA-5411-4105-B6FD-32B083423AA5}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LeagalWaysSolution</RootNamespace>
+    <AssemblyName>LeagalWaysSolution</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44348</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AboutUs.aspx" />
+    <Content Include="Assets\CSS\all.min.css" />
+    <Content Include="Assets\CSS\animate.min.css" />
+    <Content Include="Assets\CSS\Defaults.css" />
+    <Content Include="Assets\CSS\edd-blocks.css" />
+    <Content Include="Assets\CSS\edd.min.css" />
+    <Content Include="Assets\CSS\extendify-utilities.css" />
+    <Content Include="Assets\CSS\icomoonpack1.css" />
+    <Content Include="Assets\CSS\icomoonpack2.css" />
+    <Content Include="Assets\CSS\icomoonpack3.css" />
+    <Content Include="Assets\CSS\jquery-ui.min.css" />
+    <Content Include="Assets\CSS\js_composer.min.css" />
+    <Content Include="Assets\CSS\main-min.css" />
+    <Content Include="Assets\CSS\plugins-min.css" />
+    <Content Include="Assets\CSS\responsive.css" />
+    <Content Include="Assets\CSS\rs6.css" />
+    <Content Include="Assets\CSS\shortcodes.css" />
+    <Content Include="Assets\CSS\style.css" />
+    <Content Include="Assets\CSS\style.min.css" />
+    <Content Include="Assets\CSS\styles.css" />
+    <Content Include="Assets\CSS\theme_1.css" />
+    <Content Include="Assets\CSS\ultimate.min.css" />
+    <Content Include="Assets\CSS\v4-shims.min.css" />
+    <Content Include="Assets\CSS\visual-composer.css" />
+    <Content Include="Assets\CSS\wc-blocks.css" />
+    <Content Include="Assets\CSS\woocommerce-layout.css" />
+    <Content Include="Assets\CSS\woocommerce-smallscreen.css" />
+    <Content Include="Assets\CSS\woocommerce.css" />
+    <Content Include="Assets\CSS\yellow.css" />
+    <Content Include="Assets\image\about-bg6.jpg" />
+    <Content Include="Assets\image\AboutUs.jpg" />
+    <Content Include="Assets\image\address-book.png" />
+    <Content Include="Assets\image\ajax-loader.gif" />
+    <Content Include="Assets\image\alarm-clock.png" />
+    <Content Include="Assets\image\alert.png" />
+    <Content Include="Assets\image\anchor.png" />
+    <Content Include="Assets\image\app1-1.png" />
+    <Content Include="Assets\image\application-image.png" />
+    <Content Include="Assets\image\arrow-bottom.png" />
+    <Content Include="Assets\image\arrow-select-1.png" />
+    <Content Include="Assets\image\arrow.png" />
+    <Content Include="Assets\image\asterisk.png" />
+    <Content Include="Assets\image\auction-hammer.png" />
+    <Content Include="Assets\image\backblue.gif" />
+    <Content Include="Assets\image\balloon-buzz.png" />
+    <Content Include="Assets\image\balloon-facebook.png" />
+    <Content Include="Assets\image\balloon-twitter.png" />
+    <Content Include="Assets\image\balloon.png" />
+    <Content Include="Assets\image\band-portfolio-02-150x150.jpg" />
+    <Content Include="Assets\image\battery-full.png" />
+    <Content Include="Assets\image\binocular.png" />
+    <Content Include="Assets\image\blue-document-excel.png" />
+    <Content Include="Assets\image\blue-document-image.png" />
+    <Content Include="Assets\image\blue-document-music.png" />
+    <Content Include="Assets\image\blue-document-office.png" />
+    <Content Include="Assets\image\blue-document-pdf.png" />
+    <Content Include="Assets\image\blue-document-powerpoint.png" />
+    <Content Include="Assets\image\blue-document-word.png" />
+    <Content Include="Assets\image\bokeh-01-150x150.jpg" />
+    <Content Include="Assets\image\bokeh-02-150x150.jpg" />
+    <Content Include="Assets\image\bookmark.png" />
+    <Content Include="Assets\image\btnNext.png" />
+    <Content Include="Assets\image\btnPrevious.png" />
+    <Content Include="Assets\image\business-bg1-1.jpg" />
+    <Content Include="Assets\image\camcorder.png" />
+    <Content Include="Assets\image\camera.png" />
+    <Content Include="Assets\image\chart-pie.png" />
+    <Content Include="Assets\image\chart.png" />
+    <Content Include="Assets\image\clock.png" />
+    <Content Include="Assets\image\coloredbg.png" />
+    <Content Include="Assets\image\contentPattern.png" />
+    <Content Include="Assets\image\contentPatternBottom.png" />
+    <Content Include="Assets\image\contentPatternLeft.png" />
+    <Content Include="Assets\image\contentPatternRight.png" />
+    <Content Include="Assets\image\contentPatternTop.png" />
+    <Content Include="Assets\image\control.png" />
+    <Content Include="Assets\image\cover.jpg" />
+    <Content Include="Assets\image\cropped-site-icon-180x180.png" />
+    <Content Include="Assets\image\cropped-site-icon-192x192.png" />
+    <Content Include="Assets\image\cropped-site-icon-32x32.png" />
+    <Content Include="Assets\image\cross.png" />
+    <Content Include="Assets\image\default_thumb.png" />
+    <Content Include="Assets\image\default_thumbnail.gif" />
+    <Content Include="Assets\image\dummy.png" />
+    <Content Include="Assets\image\epl-icons.png" />
+    <Content Include="Assets\image\exclamation.png" />
+    <Content Include="Assets\image\explore.jpg" />
+    <Content Include="Assets\image\fabric.png" />
+    <Content Include="Assets\image\fade.gif" />
+    <Content Include="Assets\image\fashion-06-150x150.jpg" />
+    <Content Include="Assets\image\fashion-07-150x150.jpg" />
+    <Content Include="Assets\image\fashion-07.jpg" />
+    <Content Include="Assets\image\features-box4d03a.jpg" />
+    <Content Include="Assets\image\fire.png" />
+    <Content Include="Assets\image\flickr.png" />
+    <Content Include="Assets\image\gridtile.png" />
+    <Content Include="Assets\image\gridtile_3x3.png" />
+    <Content Include="Assets\image\gridtile_3x3_white.png" />
+    <Content Include="Assets\image\gridtile_white.png" />
+    <Content Include="Assets\image\heart.png" />
+    <Content Include="Assets\image\info.png" />
+    <Content Include="Assets\image\loader.gif" />
+    <Content Include="Assets\image\Logo.jpg" />
+    <Content Include="Assets\image\logo.png" />
+    <Content Include="Assets\image\mail.png" />
+    <Content Include="Assets\image\mendi-fullscreen2.jpg" />
+    <Content Include="Assets\image\MLogo.jpg" />
+    <Content Include="Assets\image\ov-plus.png" />
+    <Content Include="Assets\image\pattern-1.png" />
+    <Content Include="Assets\image\pattern-2.png" />
+    <Content Include="Assets\image\pattern-3.png" />
+    <Content Include="Assets\image\pattern-4.png" />
+    <Content Include="Assets\image\pattern-5.png" />
+    <Content Include="Assets\image\plus-shield.png" />
+    <Content Include="Assets\image\post-travel-02-150x150.jpg" />
+    <Content Include="Assets\image\post-travel-03-150x150.jpg" />
+    <Content Include="Assets\image\raster%402x.png" />
+    <Content Include="Assets\image\raster.png" />
+    <Content Include="Assets\image\raster_dot%402x.png" />
+    <Content Include="Assets\image\raster_dot.png" />
+    <Content Include="Assets\image\remove.png" />
+    <Content Include="Assets\image\service-5-85x85.jpg" />
+    <Content Include="Assets\image\slider_video_bg.jpg" />
+    <Content Include="Assets\image\spinner.gif" />
+    <Content Include="Assets\image\sprite.png" />
+    <Content Include="Assets\image\sprite_next.png" />
+    <Content Include="Assets\image\sprite_prev.png" />
+    <Content Include="Assets\image\sprite_x.png" />
+    <Content Include="Assets\image\sprite_y.png" />
+    <Content Include="Assets\image\testi-1-85x85.jpg" />
+    <Content Include="Assets\image\testi-2-85x85.jpg" />
+    <Content Include="Assets\image\testi-4-85x85.jpg" />
+    <Content Include="Assets\image\tick.png" />
+    <Content Include="Assets\image\toggle_close.png" />
+    <Content Include="Assets\image\toggle_open.png" />
+    <Content Include="Assets\image\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Assets\image\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Assets\image\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Assets\image\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Assets\image\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Assets\image\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Assets\image\ui-icons_222222_256x240.png" />
+    <Content Include="Assets\image\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Assets\image\ui-icons_454545_256x240.png" />
+    <Content Include="Assets\image\ui-icons_888888_256x240.png" />
+    <Content Include="Assets\image\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Assets\image\video-play.png" />
+    <Content Include="Assets\image\video.png" />
+    <Content Include="Assets\image\WhatsApp Image 2024-06-12 at 22.16.07_6e7bdf42.jpg" />
+    <Content Include="Assets\image\woo-ajax-loader.gif" />
+    <Content Include="Assets\JS\add-to-cart.min.js" />
+    <Content Include="Assets\JS\bootstrap.min.js" />
+    <Content Include="Assets\JS\core.min.js" />
+    <Content Include="Assets\JS\custom.min.js" />
+    <Content Include="Assets\JS\datepicker.min.js" />
+    <Content Include="Assets\JS\edd-ajax.js" />
+    <Content Include="Assets\JS\general.js" />
+    <Content Include="Assets\JS\html5-fallback.js" />
+    <Content Include="Assets\JS\index.js" />
+    <Content Include="Assets\JS\jquery-appear.min.js" />
+    <Content Include="Assets\JS\jquery-migrate.min.js" />
+    <Content Include="Assets\JS\jquery.blockUI.min.js" />
+    <Content Include="Assets\JS\jquery.carousel-custom.js" />
+    <Content Include="Assets\JS\jquery.carousel.min.js" />
+    <Content Include="Assets\JS\jquery.match-height.js" />
+    <Content Include="Assets\JS\jquery.mCustomScrollbar.concat.min.js" />
+    <Content Include="Assets\JS\jquery.min.js" />
+    <Content Include="Assets\JS\jquery.prettyPhoto.js" />
+    <Content Include="Assets\JS\jquery.rateit.min.js" />
+    <Content Include="Assets\JS\js_composer_front.min.js" />
+    <Content Include="Assets\JS\main.js" />
+    <Content Include="Assets\JS\modernizr.min.js" />
+    <Content Include="Assets\JS\order-attribution.min.js" />
+    <Content Include="Assets\JS\rbtools.min.js" />
+    <Content Include="Assets\JS\regenerator-runtime.min.js" />
+    <Content Include="Assets\JS\rs6.min.js" />
+    <Content Include="Assets\JS\sourcebuster.min.js" />
+    <Content Include="Assets\JS\ultimate-params.min.js" />
+    <Content Include="Assets\JS\ultimate_bg.min.js" />
+    <Content Include="Assets\JS\validate.js" />
+    <Content Include="Assets\JS\validate.min.js" />
+    <Content Include="Assets\JS\vc-waypoints.min.js" />
+    <Content Include="Assets\JS\woocommerce-add-to-cart.js" />
+    <Content Include="Assets\JS\wp-polyfill-inert.min.js" />
+    <Content Include="Assets\JS\wp-polyfill.min.js" />
+    <Content Include="bin\LeagalWaysSolution.dll" />
+    <Content Include="bin\LeagalWaysSolution.pdb" />
+    <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
+    <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" />
+    <Content Include="BusinessConsultancy.aspx" />
+    <Content Include="MSME.aspx" />
+    <Content Include="UtilityBills.aspx" />
+    <Content Include="TaxService.aspx" />
+    <Content Include="QualityCertification.aspx" />
+    <Content Include="ProductRegistration.aspx" />
+    <Content Include="CompanyRegistration.aspx" />
+    <Content Include="ContactUs.aspx" />
+    <Content Include="OurService.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Default.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutUs.aspx.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AboutUs.aspx.designer.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessConsultancy.aspx.cs">
+      <DependentUpon>BusinessConsultancy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BusinessConsultancy.aspx.designer.cs">
+      <DependentUpon>BusinessConsultancy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MSME.aspx.cs">
+      <DependentUpon>MSME.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MSME.aspx.designer.cs">
+      <DependentUpon>MSME.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UtilityBills.aspx.cs">
+      <DependentUpon>UtilityBills.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UtilityBills.aspx.designer.cs">
+      <DependentUpon>UtilityBills.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TaxService.aspx.cs">
+      <DependentUpon>TaxService.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TaxService.aspx.designer.cs">
+      <DependentUpon>TaxService.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QualityCertification.aspx.cs">
+      <DependentUpon>QualityCertification.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QualityCertification.aspx.designer.cs">
+      <DependentUpon>QualityCertification.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProductRegistration.aspx.cs">
+      <DependentUpon>ProductRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProductRegistration.aspx.designer.cs">
+      <DependentUpon>ProductRegistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CompanyRegistration.aspx.cs">
+      <DependentUpon>CompanyRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CompanyRegistration.aspx.designer.cs">
+      <DependentUpon>CompanyRegistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContactUs.aspx.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContactUs.aspx.designer.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="OurService.aspx.cs">
+      <DependentUpon>OurService.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OurService.aspx.designer.cs">
+      <DependentUpon>OurService.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\image\revicons.woff" />
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="obj\Debug\LeagalWaysSolution.csproj.AssemblyReference.cache" />
+    <None Include="packages.config" />
+    <Content Include="Site1.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Debug\TempPE\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>52252</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44348/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

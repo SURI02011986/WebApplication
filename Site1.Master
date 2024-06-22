@@ -1,0 +1,1489 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="LeagalWaysSolution.Site1" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="pingback" href="https://themes.zozothemes.com/mist/xmlrpc.php">
+    <title></title>
+    <meta name='robots' content='max-image-preview:large' />
+    <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
+    <link rel='preconnect' href='https://fonts.gstatic.com/' crossorigin />
+    <link rel="alternate" type="application/rss+xml" title="" href="https://themes.zozothemes.com/mist/feed/" />
+    <link rel="alternate" type="application/rss+xml" title="" href="https://themes.zozothemes.com/mist/comments/feed/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta property="og:title" content="Business" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="index.html" />
+    <meta property="og:site_name" content="Mist" />
+    <meta property="og:description" content="Best Multipurpose Responsive Theme" />
+    <meta property="og:image" content="Assets/image/logo.jpg" />
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "https:\/\/themes.zozothemes.com\/mist\/wp-includes\/js\/wp-emoji-release.min.js" } };
+        /*! This file is auto-generated */
+        !function (i, n) { var o, s, e; function c(e) { try { var t = { supportTests: e, timestamp: (new Date).valueOf() }; sessionStorage.setItem(o, JSON.stringify(t)) } catch (e) { } } function p(e, t, n) { e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(t, 0, 0); var t = new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data), r = (e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(n, 0, 0), new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data)); return t.every(function (e, t) { return e === r[t] }) } function u(e, t, n) { switch (t) { case "flag": return n(e, "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f", "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f") ? !1 : !n(e, "\ud83c\uddfa\ud83c\uddf3", "\ud83c\uddfa\u200b\ud83c\uddf3") && !n(e, "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f", "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"); case "emoji": return !n(e, "\ud83d\udc26\u200d\u2b1b", "\ud83d\udc26\u200b\u2b1b") }return !1 } function f(e, t, n) { var r = "undefined" != typeof WorkerGlobalScope && self instanceof WorkerGlobalScope ? new OffscreenCanvas(300, 150) : i.createElement("canvas"), a = r.getContext("2d", { willReadFrequently: !0 }), o = (a.textBaseline = "top", a.font = "600 32px Arial", {}); return e.forEach(function (e) { o[e] = t(a, e, n) }), o } function t(e) { var t = i.createElement("script"); t.src = e, t.defer = !0, i.head.appendChild(t) } "undefined" != typeof Promise && (o = "wpEmojiSettingsSupports", s = ["flag", "emoji"], n.supports = { everything: !0, everythingExceptFlag: !0 }, e = new Promise(function (e) { i.addEventListener("DOMContentLoaded", e, { once: !0 }) }), new Promise(function (t) { var n = function () { try { var e = JSON.parse(sessionStorage.getItem(o)); if ("object" == typeof e && "number" == typeof e.timestamp && (new Date).valueOf() < e.timestamp + 604800 && "object" == typeof e.supportTests) return e.supportTests } catch (e) { } return null }(); if (!n) { if ("undefined" != typeof Worker && "undefined" != typeof OffscreenCanvas && "undefined" != typeof URL && URL.createObjectURL && "undefined" != typeof Blob) try { var e = "postMessage(" + f.toString() + "(" + [JSON.stringify(s), u.toString(), p.toString()].join(",") + "));", r = new Blob([e], { type: "text/javascript" }), a = new Worker(URL.createObjectURL(r), { name: "wpTestEmojiSupports" }); return void (a.onmessage = function (e) { c(n = e.data), a.terminate(), t(n) }) } catch (e) { } c(n = f(s, u, p)) } t(n) }).then(function (e) { for (var t in e) n.supports[t] = e[t], n.supports.everything = n.supports.everything && n.supports[t], "flag" !== t && (n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && n.supports[t]); n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && !n.supports.flag, n.DOMReady = !1, n.readyCallback = function () { n.DOMReady = !0 } }).then(function () { return e }).then(function () { var e; n.supports.everything || (n.readyCallback(), (e = n.source || {}).concatemoji ? t(e.concatemoji) : e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji))) })) }((window, document), window._wpemojiSettings);
+/* ]]> */
+    </script>
+    <style id='wp-emoji-styles-inline-css' type='text/css'>
+        img.wp-smiley, img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 0.07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <link rel='stylesheet' id='wp-block-library-css' href='Assets/CSS/style.min.css' type='text/css' media='all' />
+    <style id='wp-block-library-theme-inline-css' type='text/css'>
+        .wp-block-audio figcaption {
+            color: #555;
+            font-size: 13px;
+            text-align: center
+        }
+
+        .is-dark-theme .wp-block-audio figcaption {
+            color: #ffffffa6
+        }
+
+        .wp-block-audio {
+            margin: 0 0 1em
+        }
+
+        .wp-block-code {
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-family: Menlo,Consolas,monaco,monospace;
+            padding: .8em 1em
+        }
+
+        .wp-block-embed figcaption {
+            color: #555;
+            font-size: 13px;
+            text-align: center
+        }
+
+        .is-dark-theme .wp-block-embed figcaption {
+            color: #ffffffa6
+        }
+
+        .wp-block-embed {
+            margin: 0 0 1em
+        }
+
+        .blocks-gallery-caption {
+            color: #555;
+            font-size: 13px;
+            text-align: center
+        }
+
+        .is-dark-theme .blocks-gallery-caption {
+            color: #ffffffa6
+        }
+
+        .wp-block-image figcaption {
+            color: #555;
+            font-size: 13px;
+            text-align: center
+        }
+
+        .is-dark-theme .wp-block-image figcaption {
+            color: #ffffffa6
+        }
+
+        .wp-block-image {
+            margin: 0 0 1em
+        }
+
+        .wp-block-pullquote {
+            border-bottom: 4px solid;
+            border-top: 4px solid;
+            color: currentColor;
+            margin-bottom: 1.75em
+        }
+
+            .wp-block-pullquote cite, .wp-block-pullquote footer, .wp-block-pullquote__citation {
+                color: currentColor;
+                font-size: .8125em;
+                font-style: normal;
+                text-transform: uppercase
+            }
+
+        .wp-block-quote {
+            border-left: .25em solid;
+            margin: 0 0 1.75em;
+            padding-left: 1em
+        }
+
+            .wp-block-quote cite, .wp-block-quote footer {
+                color: currentColor;
+                font-size: .8125em;
+                font-style: normal;
+                position: relative
+            }
+
+            .wp-block-quote.has-text-align-right {
+                border-left: none;
+                border-right: .25em solid;
+                padding-left: 0;
+                padding-right: 1em
+            }
+
+            .wp-block-quote.has-text-align-center {
+                border: none;
+                padding-left: 0
+            }
+
+            .wp-block-quote.is-large, .wp-block-quote.is-style-large, .wp-block-quote.is-style-plain {
+                border: none
+            }
+
+        .wp-block-search .wp-block-search__label {
+            font-weight: 700
+        }
+
+        .wp-block-search__button {
+            border: 1px solid #ccc;
+            padding: .375em .625em
+        }
+
+        :where(.wp-block-group.has-background) {
+            padding: 1.25em 2.375em
+        }
+
+        .wp-block-separator.has-css-opacity {
+            opacity: .4
+        }
+
+        .wp-block-separator {
+            border: none;
+            border-bottom: 2px solid;
+            margin-left: auto;
+            margin-right: auto
+        }
+
+            .wp-block-separator.has-alpha-channel-opacity {
+                opacity: 1
+            }
+
+            .wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
+                width: 100px
+            }
+
+            .wp-block-separator.has-background:not(.is-style-dots) {
+                border-bottom: none;
+                height: 1px
+            }
+
+            .wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots) {
+                height: 2px
+            }
+
+        .wp-block-table {
+            margin: 0 0 1em
+        }
+
+            .wp-block-table td, .wp-block-table th {
+                word-break: normal
+            }
+
+            .wp-block-table figcaption {
+                color: #555;
+                font-size: 13px;
+                text-align: center
+            }
+
+        .is-dark-theme .wp-block-table figcaption {
+            color: #ffffffa6
+        }
+
+        .wp-block-video figcaption {
+            color: #555;
+            font-size: 13px;
+            text-align: center
+        }
+
+        .is-dark-theme .wp-block-video figcaption {
+            color: #ffffffa6
+        }
+
+        .wp-block-video {
+            margin: 0 0 1em
+        }
+
+        .wp-block-template-part.has-background {
+            margin-bottom: 0;
+            margin-top: 0;
+            padding: 1.25em 2.375em
+        }
+    </style>
+    <link rel='stylesheet' id='edd-blocks-css' href='Assets/CSS/edd-blocks.css' type='text/css' media='all' />
+    <style id='classic-theme-styles-inline-css' type='text/css'>
+        /*! This file is auto-generated */
+        .wp-block-button__link {
+            color: #fff;
+            background-color: #32373c;
+            border-radius: 9999px;
+            box-shadow: none;
+            text-decoration: none;
+            padding: calc(.667em + 2px) calc(1.333em + 2px);
+            font-size: 1.125em
+        }
+
+        .wp-block-file__button {
+            background: #32373c;
+            color: #fff;
+            text-decoration: none
+        }
+    </style>
+    <style id='global-styles-inline-css' type='text/css'>
+        body {
+            --wp--preset--color--black: #000000;
+            --wp--preset--color--cyan-bluish-gray: #abb8c3;
+            --wp--preset--color--white: #ffffff;
+            --wp--preset--color--pale-pink: #f78da7;
+            --wp--preset--color--vivid-red: #cf2e2e;
+            --wp--preset--color--luminous-vivid-orange: #ff6900;
+            --wp--preset--color--luminous-vivid-amber: #fcb900;
+            --wp--preset--color--light-green-cyan: #7bdcb5;
+            --wp--preset--color--vivid-green-cyan: #00d084;
+            --wp--preset--color--pale-cyan-blue: #8ed1fc;
+            --wp--preset--color--vivid-cyan-blue: #0693e3;
+            --wp--preset--color--vivid-purple: #9b51e0;
+            --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);
+            --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);
+            --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);
+            --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);
+            --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);
+            --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);
+            --wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);
+            --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);
+            --wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);
+            --wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);
+            --wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);
+            --wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);
+            --wp--preset--font-size--small: 13px;
+            --wp--preset--font-size--medium: 20px;
+            --wp--preset--font-size--large: 36px;
+            --wp--preset--font-size--x-large: 42px;
+            --wp--preset--spacing--20: 0.44rem;
+            --wp--preset--spacing--30: 0.67rem;
+            --wp--preset--spacing--40: 1rem;
+            --wp--preset--spacing--50: 1.5rem;
+            --wp--preset--spacing--60: 2.25rem;
+            --wp--preset--spacing--70: 3.38rem;
+            --wp--preset--spacing--80: 5.06rem;
+            --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+            --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+            --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+            --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+            --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+        }
+
+        :where(.is-layout-flex) {
+            gap: 0.5em;
+        }
+
+        :where(.is-layout-grid) {
+            gap: 0.5em;
+        }
+
+        body .is-layout-flex {
+            display: flex;
+        }
+
+        body .is-layout-flex {
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+            body .is-layout-flex > * {
+                margin: 0;
+            }
+
+        body .is-layout-grid {
+            display: grid;
+        }
+
+            body .is-layout-grid > * {
+                margin: 0;
+            }
+
+        :where(.wp-block-columns.is-layout-flex) {
+            gap: 2em;
+        }
+
+        :where(.wp-block-columns.is-layout-grid) {
+            gap: 2em;
+        }
+
+        :where(.wp-block-post-template.is-layout-flex) {
+            gap: 1.25em;
+        }
+
+        :where(.wp-block-post-template.is-layout-grid) {
+            gap: 1.25em;
+        }
+
+        .has-black-color {
+            color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-color {
+            color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-color {
+            color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-color {
+            color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-color {
+            color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-color {
+            color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-color {
+            color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-color {
+            color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-color {
+            color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-color {
+            color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-color {
+            color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-color {
+            color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-black-background-color {
+            background-color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-background-color {
+            background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-background-color {
+            background-color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-background-color {
+            background-color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-background-color {
+            background-color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-background-color {
+            background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-background-color {
+            background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-background-color {
+            background-color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-background-color {
+            background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-background-color {
+            background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-background-color {
+            background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-background-color {
+            background-color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-black-border-color {
+            border-color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-border-color {
+            border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-border-color {
+            border-color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-border-color {
+            border-color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-border-color {
+            border-color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-border-color {
+            border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-border-color {
+            border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-border-color {
+            border-color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-border-color {
+            border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-border-color {
+            border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-border-color {
+            border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-border-color {
+            border-color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+            background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+        }
+
+        .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+            background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+        }
+
+        .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+            background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+            background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+        }
+
+        .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+            background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+        }
+
+        .has-cool-to-warm-spectrum-gradient-background {
+            background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+        }
+
+        .has-blush-light-purple-gradient-background {
+            background: var(--wp--preset--gradient--blush-light-purple) !important;
+        }
+
+        .has-blush-bordeaux-gradient-background {
+            background: var(--wp--preset--gradient--blush-bordeaux) !important;
+        }
+
+        .has-luminous-dusk-gradient-background {
+            background: var(--wp--preset--gradient--luminous-dusk) !important;
+        }
+
+        .has-pale-ocean-gradient-background {
+            background: var(--wp--preset--gradient--pale-ocean) !important;
+        }
+
+        .has-electric-grass-gradient-background {
+            background: var(--wp--preset--gradient--electric-grass) !important;
+        }
+
+        .has-midnight-gradient-background {
+            background: var(--wp--preset--gradient--midnight) !important;
+        }
+
+        .has-small-font-size {
+            font-size: var(--wp--preset--font-size--small) !important;
+        }
+
+        .has-medium-font-size {
+            font-size: var(--wp--preset--font-size--medium) !important;
+        }
+
+        .has-large-font-size {
+            font-size: var(--wp--preset--font-size--large) !important;
+        }
+
+        .has-x-large-font-size {
+            font-size: var(--wp--preset--font-size--x-large) !important;
+        }
+
+        .wp-block-navigation a:where(:not(.wp-element-button)) {
+            color: inherit;
+        }
+
+        :where(.wp-block-post-template.is-layout-flex) {
+            gap: 1.25em;
+        }
+
+        :where(.wp-block-post-template.is-layout-grid) {
+            gap: 1.25em;
+        }
+
+        :where(.wp-block-columns.is-layout-flex) {
+            gap: 2em;
+        }
+
+        :where(.wp-block-columns.is-layout-grid) {
+            gap: 2em;
+        }
+
+        .wp-block-pullquote {
+            font-size: 1.5em;
+            line-height: 1.6;
+        }
+    </style>
+    <link rel='stylesheet' id='contact-form-7-css' href='Assets/CSS/styles.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='woocommerce-layout-css' href='Assets/CSS/woocommerce-layout.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='woocommerce-general-css' href='Assets/CSS/woocommerce.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='woocommerce-smallscreen-css' href='Assets/CSS/woocommerce-smallscreen.css' type='text/css' media='all' />
+    <style id='woocommerce-inline-inline-css' type='text/css'>
+        .woocommerce form .form-row .required {
+            visibility: visible;
+        }
+    </style>
+    <link rel='stylesheet' id='redux-extendify-styles-css' href='Assets/CSS/extendify-utilities.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='edd-styles-css' href='Assets/CSS/edd.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='js_composer_front-css' href='Assets/CSS/js_composer.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='zozo-main-min-style-css' href='Assets/CSS/main-min.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='zozo-theme-style-css' href='Assets/CSS/style.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='zozo-visual-composer-extend-css' href='Assets/CSS/visual-composer.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='zozo-woocommerce-extend-css' href='Assets/CSS/woocommerce.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='zozo-plugins-extend-css' href='Assets/CSS/plugins-min.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='zozo-color-scheme-style-css' href='Assets/CSS/yellow.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='zozo-theme-responsive-style-css' href='Assets/CSS/responsive.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='zozo-custom-css-css' href='Assets/CSS/theme_1.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='jquery-ui-smoothness-css' href='Assets/CSS/jquery-ui.min.css' type='text/css' media='screen' />
+    <link rel='stylesheet' id='zozo-shortcodes-css' href='Assets/CSS/shortcodes.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='bsf-Defaults-css' href='Assets/CSS/Defaults.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='bsf-icomoonpack1-css' href='Assets/CSS/icomoonpack1.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='bsf-icomoonpack2-css' href='Assets/CSS/icomoonpack2.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='bsf-icomoonpack3-css' href='Assets/CSS/icomoonpack3.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='ultimate-vc-addons-style-min-css' href='Assets/CSS/ultimate.min.css' type='text/css' media='all' />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Arimo:400,500,600,700,400italic,500italic,600italic,700italic%7COswald:200,300,400,500,600,700&amp;display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arimo:400,500,600,700,400italic,500italic,600italic,700italic%7COswald:200,300,400,500,600,700&amp;display=swap" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arimo:400,500,600,700,400italic,500italic,600italic,700italic%7COswald:200,300,400,500,600,700&amp;display=swap" />
+    </noscript>
+    <script type="text/javascript" src="Assets/JS/jquery.min.js" id="jquery-core-js"></script>
+    <script type="text/javascript" src="Assets/JS/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+    <script type="text/javascript" src="Assets/JS/rbtools.min.js" async id="tp-tools-js"></script>
+    <script type="text/javascript" src="Assets/JS/rs6.min.js" async id="revmin-js"></script>
+    <script type="text/javascript" src="Assets/JS/jquery.blockUI.min.js" id="jquery-blockui-js" data-wp-strategy="defer"></script>
+    <script type="text/javascript" id="wc-add-to-cart-js-extra">
+        /* <![CDATA[ */
+        var wc_add_to_cart_params = { "ajax_url": "\/mist\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/mist\/?wc-ajax=%%endpoint%%", "i18n_view_cart": "View cart", "cart_url": "https:\/\/themes.zozothemes.com\/mist\/cart\/", "is_cart": "", "cart_redirect_after_add": "no" };
+/* ]]> */
+    </script>
+    <script type="text/javascript" src="Assets/JS/add-to-cart.min.js" id="wc-add-to-cart-js" data-wp-strategy="defer"></script>
+    <script type="text/javascript" src="Assets/JS/woocommerce-add-to-cart.js" id="vc_woocommerce-add-to-cart-js-js"></script>
+    <script type="text/javascript" src="Assets/JS/ultimate-params.min.js" id="ultimate-vc-addons-params-js"></script>
+    <script type="text/javascript" src="Assets/JS/custom.min.js" id="ultimate-vc-addons-custom-js"></script>
+    <script></script>
+    <link rel="https://api.w.org/" href="https://themes.zozothemes.com/mist/wp-json/" />
+    <link rel="alternate" type="application/json" href="https://themes.zozothemes.com/mist/wp-json/wp/v2/pages/2161" />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://themes.zozothemes.com/mist/xmlrpc.php?rsd" />
+    <meta name="generator" content="WordPress 6.5.4" />
+    <meta name="generator" content="WooCommerce 8.9.3" />
+    <link rel="canonical" href="index.html" />
+    <link rel='shortlink' href='https://themes.zozothemes.com/mist/?p=2161' />
+    <link rel="alternate" type="application/json+oembed" href="https://themes.zozothemes.com/mist/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fthemes.zozothemes.com%2Fmist%2Fbusiness%2F" />
+    <link rel="alternate" type="text/xml+oembed" href="https://themes.zozothemes.com/mist/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fthemes.zozothemes.com%2Fmist%2Fbusiness%2F&amp;format=xml" />
+    <meta name="generator" content="Redux 4.4.4" />
+    <meta name="generator" content="Easy Digital Downloads v3.2.12" />
+    <!-- Custom CSS -->
+    <style type="text/css">
+        .theme-features-list .zozo-feature-box.style-default-box .grid-text-left .grid-icon-wrapper {
+            padding-right: 30px;
+        }
+
+        .theme-features-list .grid-desc > p {
+            color: #555;
+        }
+
+        .theme-features-list .vc-inner-row-section {
+            margin-bottom: 40px;
+        }
+
+        .btn-rev-slider:hover a, .btn-rev-slider a:focus {
+            color: #ffc400;
+        }
+
+        .vc-match-height-inner-row .vc_column_inner {
+            height: 100% !important;
+        }
+        /* Responsive */
+        @media only screen and (max-width:1024px) and (min-width:768px) {
+            .hero-title {
+                font-size: 24px !important;
+            }
+        }
+    </style>
+    <noscript>
+        <style>
+            .woocommerce-product-gallery {
+                opacity: 1 !important;
+            }
+        </style>
+    </noscript>
+    <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
+    <meta name="generator" content="Powered by Slider Revolution 6.7.13 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+    <link rel="icon" href="../wp-content/uploads/2019/09/cropped-site-icon-32x32.png" sizes="32x32" />
+    <link rel="icon" href="../wp-content/uploads/2019/09/cropped-site-icon-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="../wp-content/uploads/2019/09/cropped-site-icon-180x180.png" />
+    <meta name="msapplication-TileImage" content="https://themes.zozothemes.com/mist/wp-content/uploads/2019/09/cropped-site-icon-270x270.png" />
+    <script>function setREVStartSize(e) {
+            //window.requestAnimationFrame(function() {
+            window.RSIW = window.RSIW === undefined ? window.innerWidth : window.RSIW;
+            window.RSIH = window.RSIH === undefined ? window.innerHeight : window.RSIH;
+            try {
+                var pw = document.getElementById(e.c).parentNode.offsetWidth,
+                    newh;
+                pw = pw === 0 || isNaN(pw) || (e.l == "fullwidth" || e.layout == "fullwidth") ? window.RSIW : pw;
+                e.tabw = e.tabw === undefined ? 0 : parseInt(e.tabw);
+                e.thumbw = e.thumbw === undefined ? 0 : parseInt(e.thumbw);
+                e.tabh = e.tabh === undefined ? 0 : parseInt(e.tabh);
+                e.thumbh = e.thumbh === undefined ? 0 : parseInt(e.thumbh);
+                e.tabhide = e.tabhide === undefined ? 0 : parseInt(e.tabhide);
+                e.thumbhide = e.thumbhide === undefined ? 0 : parseInt(e.thumbhide);
+                e.mh = e.mh === undefined || e.mh == "" || e.mh === "auto" ? 0 : parseInt(e.mh, 0);
+                if (e.layout === "fullscreen" || e.l === "fullscreen")
+                    newh = Math.max(e.mh, window.RSIH);
+                else {
+                    e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+                    for (var i in e.rl) if (e.gw[i] === undefined || e.gw[i] === 0) e.gw[i] = e.gw[i - 1];
+                    e.gh = e.el === undefined || e.el === "" || (Array.isArray(e.el) && e.el.length == 0) ? e.gh : e.el;
+                    e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+                    for (var i in e.rl) if (e.gh[i] === undefined || e.gh[i] === 0) e.gh[i] = e.gh[i - 1];
+
+                    var nl = new Array(e.rl.length),
+                        ix = 0,
+                        sl;
+                    e.tabw = e.tabhide >= pw ? 0 : e.tabw;
+                    e.thumbw = e.thumbhide >= pw ? 0 : e.thumbw;
+                    e.tabh = e.tabhide >= pw ? 0 : e.tabh;
+                    e.thumbh = e.thumbhide >= pw ? 0 : e.thumbh;
+                    for (var i in e.rl) nl[i] = e.rl[i] < window.RSIW ? 0 : e.rl[i];
+                    sl = nl[0];
+                    for (var i in nl) if (sl > nl[i] && nl[i] > 0) { sl = nl[i]; ix = i; }
+                    var m = pw > (e.gw[ix] + e.tabw + e.thumbw) ? 1 : (pw - (e.tabw + e.thumbw)) / (e.gw[ix]);
+                    newh = (e.gh[ix] * m) + (e.tabh + e.thumbh);
+                }
+                var el = document.getElementById(e.c);
+                if (el !== null && el) el.style.height = newh + "px";
+                el = document.getElementById(e.c + "_wrapper");
+                if (el !== null && el) {
+                    el.style.height = newh + "px";
+                    el.style.display = "block";
+                }
+            } catch (e) {
+                console.log("Failure at Presize of Slider:" + e)
+            }
+            //});
+        };</script>
+    <style type="text/css" id="wp-custom-css">
+        @media (min-width: 1200px) {
+            .edd_downloads_list.edd_download_columns_4 {
+                -ms-grid-columns: auto;
+                grid-template-columns: auto;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .edd_downloads_list:not(.edd_download_columns_1) {
+                -ms-grid-columns: auto;
+                grid-template-columns: auto;
+            }
+        }
+
+        @supports (display:grid) {
+            .edd_downloads_list .edd_download {
+                width: 25% !important;
+            }
+        }
+
+        .large-layout .large-posts .btn-more.read-more-link {
+            font-size: 17px;
+            line-height: 19px;
+        }
+
+        .vc_general.vc_cta3 .vc_cta3_content-container .vc_btn3-inline {
+            margin-left: 10px;
+        }
+
+        select.wpcf7-form-control {
+            background-image: url(../wp-content/uploads/2024/02/arrow-select-1.png) !important;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            background-repeat: no-repeat !important;
+            background-position: 96% 50% !important;
+        }
+    </style>
+    <style type="text/css" data-type="vc_shortcodes-default-css">
+        .vc_do_cta3 {
+            padding-top: 28px;
+            padding-right: 28px;
+            padding-bottom: 28px;
+            padding-left: 28px;
+            margin-bottom: 35px;
+        }
+    </style>
+    <style type="text/css" data-type="vc_shortcodes-custom-css">
+        .vc_custom_1706856024526 {
+            padding-bottom: 30px !important;
+        }
+
+        .vc_custom_1438664503070 {
+            padding-top: 0px !important;
+        }
+
+        .vc_custom_1438666279482 {
+            border-top-width: 1px !important;
+            border-top-color: #e1e1e1 !important;
+            border-top-style: solid !important;
+        }
+
+        .vc_custom_1706855932430 {
+            background-image: url(Assets/image/features-box4d03a.jpg?id=1524) !important;
+            background-position: center !important;
+            background-repeat: no-repeat !important;
+            background-size: cover !important;
+        }
+
+        .vc_custom_1438671098355 {
+            padding-top: 0px !important;
+            padding-bottom: 0px !important;
+        }
+
+        .vc_custom_1482388438856 {
+            background-image: url(https://themes.zozothemes.com/mist/wp-content/uploads/2015/08/slider47-bg.jpg?id=3675) !important;
+            background-position: center !important;
+            background-repeat: no-repeat !important;
+            background-size: cover !important;
+        }
+
+        .vc_custom_1440923749599 {
+            padding-top: 40px !important;
+        }
+
+        .vc_custom_1658212656590 {
+            padding-top: 50px !important;
+            padding-right: 9% !important;
+            padding-bottom: 50px !important;
+            padding-left: 9% !important;
+            background-image: url(https://themes.zozothemes.com/mist/wp-content/uploads/2019/09/classic-bg3.jpg?id=11502) !important;
+            background-position: center !important;
+            background-repeat: no-repeat !important;
+            background-size: cover !important;
+        }
+
+        .vc_custom_1450088719015 {
+            padding-top: 50px !important;
+            padding-right: 9% !important;
+            padding-bottom: 50px !important;
+            padding-left: 9% !important;
+        }
+
+        .vc_custom_1450088736654 {
+            padding-top: 50px !important;
+            padding-right: 9% !important;
+            padding-bottom: 50px !important;
+            padding-left: 9% !important;
+        }
+
+        .vc_custom_1450093285104 {
+            margin-bottom: 25px !important;
+        }
+
+        .vc_custom_1450093099091 {
+            margin-bottom: 0px !important;
+        }
+
+        .side-menu {
+            position: fixed;
+            top: 300px; /* Adjust this value to set the distance from the top */
+            right: 0px; /* Adjust this value to set the distance from the left */
+            z-index: 9999; /* Ensure it appears above other content */
+        }
+
+            .side-menu a {
+                display: block;
+                text-align: center;
+                padding: 16px;
+                transition: all 0.3s ease;
+                color: white;
+                font-size: 20px;
+            }
+
+
+                .side-menu a:hover {
+                    background-color: #000;
+                }
+
+        .side-phone {
+            background: #3B5998;
+            color: white;
+        }
+
+        .side-whatsup {
+            background: #55ACEE;
+            color: white;
+        }
+
+        .side-email {
+            background: #dd4b39;
+            color: white;
+        }
+    </style>
+    <noscript>
+        <style>
+            .wpb_animate_when_almost_visible {
+                opacity: 1;
+            }
+        </style>
+    </noscript>
+</head>
+
+<body class="home page-template page-template-template-fullwidth page-template-template-fullwidth-php page page-id-7 wp-embed-responsive fullwidth hide-title-bar-yes theme-skin-light footer-default header-is-sticky header-mobile-is-sticky no-mobile-slidingbar rev-position-header-below  one-col wpb-js-composer js-comp-ver-7.6 vc_responsive">
+    <div id="zozo_wrapper" class="wrapper-class">
+        <div class="pageloader">
+            <div class="zozo-loader">
+                <div class="zozo-loader-inner ball-clip-rotate">
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div id="slidingbar-section" class="zozo-sliding-bar-wrapper sliding-bar-section">
+            <div class="slidingbar-inner">
+                <div class="container">
+                    <div class="row">
+                        <div class="sliding-bar-columns slidingbar-columns-3">
+                            <div id="sliding-widget-1" class="sliding-bar-widgets col-md-4 col-sm-6 col-xs-12">
+                                <div id="text-2" class="widget widget_text">
+                                    <h3 class="widget-title">About the Mist</h3>
+                                    <div class="textwidget">
+                                        <p>We like to provide great site with complete features what you want to implement in your business! Mist can become a Blog, an Agency, a Hospital, a Sports, a a Portfolio, a Spa, a Restaurant, a University, a Corporate website, an E-Store, a Construction Business, a Hosting Company, an Attorney website, a Blog, a Creative Studio and much more.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="sliding-widget-2" class="sliding-bar-widgets col-md-4 col-sm-6 col-xs-12">
+                                <div id="recent-posts-3" class="widget widget_recent_entries">
+                                    <h3 class="widget-title">Recent Posts</h3>
+                                    <ul>
+                                        <li>
+                                            <a href="https://themes.zozothemes.com/mist/blog/2015/08/24/delight-post/">Delight Post</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://themes.zozothemes.com/mist/blog/2015/08/24/music-video-post/">Music Video Post</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://themes.zozothemes.com/mist/blog/2015/08/24/youtube-post-3/">Youtube Post</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://themes.zozothemes.com/mist/blog/2015/08/24/vimeo-post/">Vimeo Post</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://themes.zozothemes.com/mist/blog/2015/08/20/permanent-vacation/">Permanent Vacation</a>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                            <div id="sliding-widget-3" class="sliding-bar-widgets col-md-4 col-sm-6 col-xs-12">
+                                <div id="text-3" class="widget widget_text">
+                                    <h3 class="widget-title">Get In Touch</h3>
+                                    <div class="textwidget">
+                                        <p>Zozotheme.com</p>
+                                        <p>No. 12, Ribon Building, Walse street, Australia.</p>
+                                        <p>
+                                            Phone: 1-800-555-5555<br />
+                                            Mobile: 1-234-567-8910
+                                        </p>
+                                        <p>Email: info@yourwebsite.com</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slidingbar-toggle-wrapper">
+                <a href="#" class="slidingbar-nav"></a>
+            </div>
+        </div>
+
+        <div id="header" class="header-section type-header-1 header-skin-light header-no-transparent">
+
+
+            <div id="header-top-bar" class="header-top-section navbar">
+                <div class="container">
+                    <!-- ==================== Toggle Icon ==================== -->
+                    <div class="navbar-header nav-respons">
+                        <button type="button" aria-expanded="false" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".zozo-topnavbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+
+                    <div class="navbar-collapse zozo-topnavbar-collapse collapse">
+                        <!-- ==================== Header Top Bar Left ==================== -->
+                        <ul class="nav navbar-nav zozo-top-left">
+                            <li>
+                                <div id="header-contact-info" class="top-contact-info">
+                                    <ul class="header-contact-details">
+                                        <li class="header-phone">+91746037866</li>
+                                        <li class="header-email"><a href="mailto:lvcjamshedpur@gmail.com">lvcjamshedpur@gmail.com</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <!-- ==================== Header Top Bar Right ==================== -->
+                        <ul class="nav navbar-nav navbar-right zozo-top-right">
+                            <li>
+                                <div id="header-sidebar-social" class="sidebar-social">
+                                    <ul class="zozo-social-icons soc-icon-transparent">
+                                        <li class="facebook"><a target="_self" href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li class="youtube"><a target="_self" href="https://www.youtube.com/channel/UCAOkwuYxJuOqiYAj1Vy5JIg"><i class="fa fa-youtube"></i></a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- .container -->
+            </div>
+
+            <div id="header-main" class="header-main-section navbar">
+                <div class="container">
+
+                    <!-- ============ Logo ============ -->
+                    <div class="navbar-header nav-respons zozo-logo zozo-has-sticky-logo zozo-no-mobile-logo">
+                        <!-- ==================== Toggle Icon ==================== -->
+                        <button type="button" aria-expanded="false" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".zozo-mainnavbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a href="Default.aspx" class="navbar-brand" title="Mist - Best Multipurpose Responsive Theme" rel="home">
+                            <img class="img-responsive zozo-standard-logo" src="Assets/image/MLogo.Jpg" alt="Mist" width="100" height="80" />
+                            <img class="img-responsive zozo-sticky-logo" src="Assets/image/MLogo.Jpg" alt="Mist" width="100" height="80" />
+                        </a>
+                    </div>
+
+                    <div class="navbar-collapse zozo-mainnavbar-collapse collapse zozo-header-main-bar">
+                        <!-- ==================== Header Right ==================== -->
+                        <ul class="nav navbar-nav navbar-right zozo-main-bar">
+                            <li>
+                                <div class="hidden-xs">
+                                    <div id="main-nav-container" class="main-nav main-menu-container main-megamenu">
+                                        <ul id="main-menu" class="nav navbar-nav navbar-main zozo-main-nav">
+                                            <li id="menu-item-10620" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current_page_ancestor menu-item-has-children menu-item-10620 zozo-megamenu-menu dropdown"><a title="Home" href="Default.aspx">Home <span class="caret"></span></a>
+                                            </li>
+                                            <li id="menu-item-10269" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10269 dropdown"><a title="Features" href="AboutUs.aspx" class="dropdown-toggle">About Us <span class="caret"></span></a>
+                                            </li>
+                                            <li id="menu-item-10270" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10303 dropdown"><a title="Contact Us" href="#" class="dropdown-toggle external-link">Our Service <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu sub-nav">
+	<li id="menu-item-10586" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10586"><a title="Company Registration" href="CompanyRegistration.aspx" class="external-link">Company Registration</a></li>
+	<li id="menu-item-10587" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10587"><a title="Product Registration" href="ProductRegistration.aspx" class="external-link">Product Registration</a></li>
+	<li id="menu-item-10588" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10588"><a title="Quality Certification" href="QualityCertification.aspx"  class="external-link">Quality Certification</a></li>
+	<li id="menu-item-10589" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10589"><a title="Business Consultancy" href="BusinessConsultancy.aspx"  class="external-link">Business Consultancy</a></li>
+	<li id="menu-item-10590" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10590"><a title="Small Industory & Factory Setup" href="MSME.aspx"  class="external-link">Small Industory & Factory Setup</a></li>
+	<li id="menu-item-10591" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10591"><a title="Tax Related Service" href="TaxService.aspx"  class="external-link">Tax Related Service</a></li>
+    <li id="menu-item-10592" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10591"><a title="UtiLity Bill" href="UtilityBills.aspx"  class="external-link">UtiLity Bill</a></li>
+</ul>
+</li>
+
+                                            <li id="menu-item-10303" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10303 dropdown"><a title="Contact Us" href="ContactUs.aspx" class="dropdown-toggle">Contact Us</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- Menu For MObile-->
+                                <%--<div id="main-mobile-menu-wrapper" class="visible-xs mobile-menu">
+                                    <div id="main-mobile-nav" class="main-nav main-mobile-nav main-menu-navigation">
+                                        <ul id="main-mobile-menu" class="nav navbar-nav navbar-main zozo-main-nav">
+                                            <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current_page_ancestor menu-item-has-children menu-item-10620 dropdown "><a title="Home" href="Default.aspx">Home</a>
+                                            </li>
+                                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10269 dropdown "><a title="Features" href="AboutUs.aspx">About Us</a>
+                                            </li>
+                                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10273 dropdown "><a>Company Registration</a><span class="menu-toggler" data-toggle="collapse" data-target=".collapse-10273">
+                                                <i class="fa fa-angle-down"></i>
+                                            </span>
+                                                <ul role="menu" class="mobile-sub-menu mobile-megamenu collapse collapse-10273 ">
+                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10529"><a title="About Us – 2" href="OurService.aspx#C1">Public/Private Limited Company
+                                                    </a></li>
+                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10530"><a title="About Us – 3" href="OurService.aspx#C2">LLP/Partnership/Properitorship 
+                                                    </a></li>
+                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10531"><a title="About Us – 4" href="https://themes.zozothemes.com/mist/about-us-4/">Trust/Ngo/Society Registration
+                                                    </a></li>
+                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10532"><a title="About Us – 5" href="https://themes.zozothemes.com/mist/about-us-5/">Food License</a></li>
+                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10527"><a title="About Me" href="https://themes.zozothemes.com/mist/about-me/">Mutation & Land Registration</a></li>
+                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10533"><a title="Team" href="https://themes.zozothemes.com/mist/shortcodes/team/">Property/Flat & Marriage Registrationy</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10275 dropdown ">
+                                                <a title="Features" href="AboutUs.aspx">Product Registration</a><span class="menu-toggler" data-toggle="collapse" data-target=".collapse-4">
+                                                    <i class="fa fa-angle-down"></i>
+                                                </span>
+                                                <ul role="menu" class="mobile-sub-menu mobile-megamenu collapse collapse-4">
+                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10534"><a title="Services 1" href="https://themes.zozothemes.com/mist/services-1/">Trademark TM REGD.</a></li>
+                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10535"><a title="Services 2" href="https://themes.zozothemes.com/mist/services-2/">Copyright/Patent</a></li>
+                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10536"><a title="Services 3" href="https://themes.zozothemes.com/mist/services-3/">Design Registration</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10275 dropdown ">
+                                                <a title="Features" href="AboutUs.aspx">Quality Certification</a><span class="menu-toggler" data-toggle="collapse" data-target=".collapse-5">
+                                                    <i class="fa fa-angle-down"></i>
+                                                </span>
+                                                <ul role="menu" class="mobile-sub-menu mobile-megamenu collapse collapse-5">
+                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10528"><a title="Services 4" href="https://themes.zozothemes.com/mist/services-4/">ISO 90001 (QMS)</a></li>
+                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10537"><a title="Services 5" href="https://themes.zozothemes.com/mist/services-5/">ISO 14000 (EMS)</a></li>
+                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10538"><a title="Services 6" href="https://themes.zozothemes.com/mist/services-6/">ISO 18000 (OHSAS)</a></li>
+                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10539"><a title="FAQ" href="https://themes.zozothemes.com/mist/faq/">GMP Certification</a></li>
+                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10539"><a title="FAQ" href="https://themes.zozothemes.com/mist/faq/">ISI Mark & CE Mark</a></li>
+                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10539"><a title="FAQ" href="https://themes.zozothemes.com/mist/faq/">NABH/NABL/WHO</a></li>
+                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10539"><a title="FAQ" href="https://themes.zozothemes.com/mist/faq/">Safety Audit Internal / External</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10275 dropdown ">
+                                                <a title="Features" href="AboutUs.aspx">Business Cusultancy</a><span class="menu-toggler" data-toggle="collapse" data-target=".collapse-7">
+                                                    <i class="fa fa-angle-down"></i>
+                                                </span>
+                                                <ul role="menu" class="mobile-sub-menu mobile-megamenu collapse collapse-7">
+                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10541"><a title="Features" href="https://themes.zozothemes.com/mist/features/">New Business Idea</a></li>
+                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10542"><a title="Features 2" href="https://themes.zozothemes.com/mist/features-2/">Factory & Plant Setup</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10275 dropdown ">
+                                                <a title="Features" href="AboutUs.aspx">Small Idustry</a><span class="menu-toggler" data-toggle="collapse" data-target=".collapse-8">
+                                                    <i class="fa fa-angle-down"></i>
+                                                </span>
+                                                <ul role="menu" class="mobile-sub-menu mobile-megamenu collapse collapse-8">
+                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10543"><a title="Features 3" href="https://themes.zozothemes.com/mist/features-3/">Mineral Water Plant</a></li>
+                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10544"><a title="Features 4" href="https://themes.zozothemes.com/mist/features-4/">Injection Modulding Machine</a></li>
+                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10545"><a title="Testimonials" href="https://themes.zozothemes.com/mist/shortcodes/testimonials/">Pouch Packing Machine</a></li>
+                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10547"><a title="Coming Soon" href="https://themes.zozothemes.com/mist/coming-soon/">Milk Bakery & Dairy Factory</a></li>
+                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10546"><a title="Under Maintenance" href="https://themes.zozothemes.com/mist/under-maintenance/">Flour Mill Plant</a></li>
+                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10546"><a title="Under Maintenance" href="https://themes.zozothemes.com/mist/under-maintenance/">Food Processing Machine</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10275 dropdown ">
+                                                <a title="Features" href="AboutUs.aspx">Tax Releted Service</a><span class="menu-toggler" data-toggle="collapse" data-target=".collapse-8">
+                                                    <i class="fa fa-angle-down"></i>
+                                                </span>
+                                                <ul role="menu" class="mobile-sub-menu mobile-megamenu collapse collapse-8">
+                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10548"><a title="Wide Layout" href="https://themes.zozothemes.com/mist/wide-layout/">GST Registration</a></li>
+                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10549"><a title="Boxed Layout" href="https://themes.zozothemes.com/mist/boxed-layout/">GST Filling</a></li>
+                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10550"><a title="Both Sidebar" href="https://themes.zozothemes.com/mist/both-sidebar/">Income Tax Return</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10275 dropdown ">
+                                                <a title="Features" href="AboutUs.aspx">Tax Releted Service</a><span class="menu-toggler" data-toggle="collapse" data-target=".collapse-9">
+                                                    <i class="fa fa-angle-down"></i>
+                                                </span>
+                                                <ul role="menu" class="mobile-sub-menu mobile-megamenu collapse collapse-9">
+                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10551"><a title="Right Sidebar" href="https://themes.zozothemes.com/mist/right-sidebar/">Holding Tax Pay</a></li>
+                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10552"><a title="Left Sidebar" href="https://themes.zozothemes.com/mist/left-sidebar/">Electricity Bill Pay</a></li>
+                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10278"><a title="404 Page" href="https://themes.zozothemes.com/mist/404">RENT Aggrement</a></li>
+                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10553"><a title="Sitemap" href="https://themes.zozothemes.com/mist/sitemap/">Birth Certificate</a></li>
+                                                </ul>
+                                            </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10303 dropdown "><a title="Contact Us" href="ContactUs.aspx">Contact Us</a>
+                                    </li>
+                        </ul>
+                    </div>
+                </div>--%>
+                                     <div id="main-mobile-menu-wrapper" class="visible-xs mobile-menu">
+                                    <div id="main-mobile-nav" class="main-nav main-mobile-nav main-menu-navigation">
+                                        <ul id="main-mobile-menu" class="nav navbar-nav navbar-main zozo-main-nav">
+                                            <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current_page_ancestor menu-item-has-children menu-item-10620 dropdown "><a title="Home" href="Default.aspx">Home</a>
+                                            </li>
+                                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10269 dropdown "><a title="Features" href="AboutUs.aspx">About Us</a>
+                                            </li>
+                                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10273 dropdown "><a>Our Service Registration</a><span class="menu-toggler" data-toggle="collapse" data-target=".collapse-10273">
+                                                <i class="fa fa-angle-down"></i>
+                                            </span>
+                                                <ul role="menu" class="mobile-sub-menu mobile-megamenu collapse collapse-10273 ">
+                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10529"><a title="About Us – 2" href="CompanyRegistration.aspx">Company Registration</a></li>
+                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10530"><a title="About Us – 3" href="ProductRegistration.aspx">Product Registration
+                                                    </a></li>
+                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10531"><a title="About Us – 4" href="QualityCertification.aspx">Quality Registration
+                                                    </a></li>
+                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10532"><a title="About Us – 5" href="BusinessConsultancy.aspx">Business Consultancy</a></li>
+                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10527"><a title="About Me" href="MSME.aspx">Small Industry & Factory Setup</a></li>
+                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10533"><a title="Team" href="TaxService.aspx">Tax Related Service</a></li>
+                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10533"><a title="Team" href="UtilityBills.aspx">Utility Bills</a></li>
+                                                </ul>
+                                            </li>
+                                            
+
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10303 dropdown "><a title="Contact Us" href="ContactUs.aspx">Contact Us</a>
+                                    </li>
+                        </ul>
+                    </div>
+                </div>
+                                </li>
+                            </ul>
+            </div>
+        </div>
+        <!-- .container -->
+    </div>
+    <!-- .header-main-section -->
+    </div>
+        <!-- #header -->
+
+    <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
+
+    <!-- #main -->
+
+    <div class="side-menu">
+        <a href="tel:+917463037866" class="side-phone"><i class="fa fa-phone"></i></a>
+        <a href="https://api.whatsapp.com/send?phone=917463037866" class="side-whatsup"><i class="fa fa-whatsapp"></i></a>
+        <a class="side-email" data-bs-toggle="modal" data-bs-target="#contactus"><i class="fa fa-envelope"></i></a>
+    </div>
+
+    <div id="footer" class="footer-section footer-style-default footer-skin-dark">
+        <div id="footer-widgets-container" class="footer-widgets-section">
+            <div class="container">
+                <div class="zozo-row row">
+                    <div id="footer-widgets-1" class="footer-widgets col-md-3 col-sm-6 col-xs-12">
+                        <div id="text-2" class="widget widget_text">
+                            <h3 class="widget-title">About Us</h3>
+                            <div class="textwidget">
+                                <p>We like to provide great site with complete features what you want to implement in your business!</p>
+                                <p>
+                                    <strong>Office:</strong> Zozotheme.com<br>
+                                    No. 12, Ribbon Building,<br>
+                                    Walse street, Australia.
+                                </p>
+                                <p><strong>Call Us:</strong> +0 (123) 456-78-90</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="footer-widgets-2" class="footer-widgets col-md-3 col-sm-6 col-xs-12">
+                        <div id="text-4" class="widget widget_text">
+                            <h3 class="widget-title">Our Service</h3>
+                            <div class="textwidget">
+                                <ul class="list simple">
+                                    <li><a>Company Registration</a></li>
+                                    <li><a>Trademark Registration</a></li>
+                                    <li><a>GST Registration</a></li>
+                                    <li><a>Product Registration</a></li>
+                                    <li><a>Quality Certification</a></li>
+                                    <li><a>Utility Services</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="footer-widgets-3" class="footer-widgets col-md-3 col-sm-6 col-xs-12">
+                        <div id="zozo_mailchimp_form_widget-widget-1" class="widget zozo_mailchimp_form_widget">
+                            <h3 class="widget-title">Subscribe Now</h3>
+                            <p class="subscribe-desc">Subscribe to Our Newsletter to get Important News, Amazing Offers &amp; Inside Scoops:</p>
+                            <div id="mc-subscribe-widget1" class="zozo-mc-form subscribe-form mailchimp-form-wrapper">
+                                <p class="mailchimp-msg zozo-form-success"></p>
+
+                                <form action="#" method="post" id="zozo-mailchimp-form-widget1" name="zozo-mailchimp-form-widget1" class="zozo-mailchimp-form" data-email_not_empty="The email address is required" data-email_valid="The input is not a valid email address">
+
+                                    <div class="mailchimp-email zozo-form-group-addon">
+                                        <div class="input-group form-group">
+                                            <input type="text" placeholder="@yourmail.com" class="zozo-subscribe input-email form-control" value="" name="subscribe_email" id="subscribe_email">
+                                            <div class="input-group-btn">
+                                                <button type="submit" id="zozo_mc_form_widget_submit" name="zozo_mc_submit" class="btn mc-subscribe zozo-submit"><i class="simple-icon icon-paper-plane"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <input type="hidden" id="zozo_mc_form_widget_list" name="zozo_mc_form_list" value="8720f4a3d2">
+                                </form>
+                            </div>
+
+                        </div>
+                        <div id="zozo_social_link_widget-widget-1" class="widget zozo_social_link_widget">
+                            <ul class="zozo-social-icons soc-icon-circle">
+                                <li class="facebook"><a target="_blank" href="https://www.facebook.com/zozothemes.official"><i class="fa fa-facebook"></i></a></li>
+                                <li class="twitter"><a target="_blank" href="https://twitter.com/zozothemes"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                <li class="pinterest"><a target="_blank" href="https://in.pinterest.com/zozothemesofficial/"><i class="fa fa-pinterest"></i></a></li>
+                                <li class="linkedin"><a target="_blank" href="https://www.linkedin.com/company/zozo-themes/?viewAsMember=true"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="footer-widgets-4" class="footer-widgets col-md-3 col-sm-6 col-xs-12">
+                        <div id="text-5" class="widget widget_text">
+                            <h3 class="widget-title">Our Service</h3>
+                            <div class="textwidget">
+                                <ul class="list simple">
+                                    <li><a>Company Registration</a></li>
+                                    <li><a>Trademark Registration</a></li>
+                                    <li><a>GST Registration</a></li>
+                                    <li><a>Product Registration</a></li>
+                                    <li><a>Quality Certification</a></li>
+                                    <li><a>Utility Services</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- .row -->
+            </div>
+        </div>
+
+        <!-- #footer-widgets-container -->
+
+        <div id="footer-copyright-container" class="footer-copyright-section">
+            <div class="container">
+                <div class="zozo-row row">
+
+                    <div id="copyright-text" class="col-sm-7">
+                        <p>© Copyright 2024. All Rights Reserved.</p>
+
+                    </div>
+                    <!-- #copyright-text -->
+                    <div id="zozo-back-to-top" class="footer-backtotop col-sm-5 text-right">
+                        <a href="#zozo_wrapper"><i class="glyphicon glyphicon-arrow-up"></i></a>
+                    </div>
+                    <!-- #zozo-back-to-top -->
+
+                </div>
+            </div>
+        </div>
+
+        <!-- #footer-copyright-container -->
+        <!-- Modal -->
+
+    </div>
+    <!-- #footer -->
+    <!-- Modal -->
+    <div class="modal fade" id="contactus" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Understood</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script>
+        window.RS_MODULES = window.RS_MODULES || {};
+        window.RS_MODULES.modules = window.RS_MODULES.modules || {};
+        window.RS_MODULES.waiting = window.RS_MODULES.waiting || [];
+        window.RS_MODULES.defered = false;
+        window.RS_MODULES.moduleWaiting = window.RS_MODULES.moduleWaiting || {};
+        window.RS_MODULES.type = 'compiled';
+    </script>
+    <style>
+        .edd-js-none .edd-has-js, .edd-js .edd-no-js, body.edd-js input.edd-no-js {
+            display: none;
+        }
+    </style>
+    <script>/* <![CDATA[ */(function () { var c = document.body.classList; c.remove('edd-js-none'); c.add('edd-js'); })();/* ]]> */</script>
+    <script type="text/html" id="wpb-modifications">window.wpbCustomElement = 1; </script>
+    <link href="http://fonts.googleapis.com/css?family=Oswald:700%7CArimo:400%7CRoboto:400&amp;display=swap" rel="stylesheet" property="stylesheet" media="all" type="text/css">
+
+    <script type='text/javascript'>
+        (function () {
+            var c = document.body.className;
+            c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+            document.body.className = c;
+        })();
+    </script>
+    <script>
+        if (typeof revslider_showDoubleJqueryError === "undefined") { function revslider_showDoubleJqueryError(sliderID) { console.log("You have some jquery.js library include that comes after the Slider Revolution files js inclusion."); console.log("To fix this, you can:"); console.log("1. Set 'Module General Options' -> 'Advanced' -> 'jQuery & OutPut Filters' -> 'Put JS to Body' to on"); console.log("2. Find the double jQuery.js inclusion and remove it"); return "Double Included jQuery Library"; } }
+    </script>
+    <link rel="preload" as="font" id="rs-icon-set-revicon-woff" href="Assets/image/revicons.woff?5510888" type="font/woff" crossorigin="anonymous" media="all" />
+    <link rel='stylesheet' id='wc-blocks-style-css' href='Assets/CSS/wc-blocks.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='vc_animate-css-css' href='Assets/CSS/animate.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='vc_font_awesome_5_shims-css' href='Assets/CSS/v4-shims.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='vc_font_awesome_5-css' href='Assets/CSS/all.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='rs-plugin-settings-css' href='Assets/CSS/rs6.css' type='text/css' media='all' />
+    <style id='rs-plugin-settings-inline-css' type='text/css'>
+        #rev_slider_4_1_wrapper .custom.tparrows {
+            cursor: pointer;
+            background: #000;
+            background: rgba(0,0,0,0.5);
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            display: block;
+            z-index: 1000
+        }
+
+            #rev_slider_4_1_wrapper .custom.tparrows.rs-touchhover {
+                background: #000
+            }
+
+            #rev_slider_4_1_wrapper .custom.tparrows:before {
+                font-family: 'revicons';
+                font-size: 15px;
+                color: #fff;
+                display: block;
+                line-height: 40px;
+                text-align: center
+            }
+
+            #rev_slider_4_1_wrapper .custom.tparrows.tp-leftarrow:before {
+                content: '\e824'
+            }
+
+            #rev_slider_4_1_wrapper .custom.tparrows.tp-rightarrow:before {
+                content: '\e825'
+            }
+    </style>
+    <script type="text/javascript" src="Assets/JS/index.js" id="swv-js"></script>
+    <script type="text/javascript" id="contact-form-7-js-extra">
+        /* <![CDATA[ */
+        var wpcf7 = { "api": { "root": "https:\/\/themes.zozothemes.com\/mist\/wp-json\/", "namespace": "contact-form-7\/v1" } };
+/* ]]> */
+    </script>
+    <script type="text/javascript" src="Assets/JS/sourcebuster.min.js" id="sourcebuster-js-js"></script>
+    <script type="text/javascript" id="wc-order-attribution-js-extra">
+        /* <![CDATA[ */
+        var wc_order_attribution = { "params": { "lifetime": 1.0000000000000000818030539140313095458623138256371021270751953125e-5, "session": 30, "ajaxurl": "https:\/\/themes.zozothemes.com\/mist\/wp-admin\/admin-ajax.php", "prefix": "wc_order_attribution_", "allowTracking": true }, "fields": { "source_type": "current.typ", "referrer": "current_add.rf", "utm_campaign": "current.cmp", "utm_source": "current.src", "utm_medium": "current.mdm", "utm_content": "current.cnt", "utm_id": "current.id", "utm_term": "current.trm", "session_entry": "current_add.ep", "session_start_time": "current_add.fd", "session_pages": "session.pgs", "session_count": "udata.vst", "user_agent": "udata.uag" } };
+/* ]]> */
+    </script>
+    <script type="text/javascript" src="Assets/JS/order-attribution.min.js" id="wc-order-attribution-js"></script>
+    <script type="text/javascript" id="edd-ajax-js-extra">
+        /* <![CDATA[ */
+        var edd_scripts = { "ajaxurl": "https:\/\/themes.zozothemes.com\/mist\/wp-admin\/admin-ajax.php", "position_in_cart": "", "has_purchase_links": "", "already_in_cart_message": "You have already added this item to your cart", "empty_cart_message": "Your cart is empty", "loading": "Loading", "select_option": "Please select an option", "is_checkout": "0", "default_gateway": "", "redirect_to_checkout": "0", "checkout_page": "https:\/\/themes.zozothemes.com\/mist\/checkout-2\/", "permalinks": "1", "quantities_enabled": "", "taxes_enabled": "0", "current_page": "2161" };
+/* ]]> */
+    </script>
+    <script type="text/javascript" src="Assets/JS/edd-ajax.js" id="edd-ajax-js"></script>
+    <script type="text/javascript" src="Assets/JS/bootstrap.min.js" id="zozo-bootstrap-js-js"></script>
+    <script type="text/javascript" src="Assets/JS/jquery.mCustomScrollbar.concat.min.js" id="jquery.mCustomScrollbar-js"></script>
+    <script type="text/javascript" id="zozo-theme-js-js-extra">
+        /* <![CDATA[ */
+        var zozo_js_vars = { "zozo_template_uri": "https:\/\/themes.zozothemes.com\/mist\/wp-content\/themes\/mist", "isRTL": "false", "isOriginLeft": "true", "zozo_sticky_height": "60px", "zozo_sticky_height_alt": "60px", "zozo_ajax_url": "https:\/\/themes.zozothemes.com\/mist\/wp-admin\/admin-ajax.php", "zozo_CounterYears": "Years", "zozo_CounterMonths": "Months", "zozo_CounterWeeks": "Weeks", "zozo_CounterDays": "Days", "zozo_CounterHours": "Hours", "zozo_CounterMins": "Mins", "zozo_CounterSecs": "Secs", "zozo_CounterYear": "Year", "zozo_CounterMonth": "Month", "zozo_CounterWeek": "Week", "zozo_CounterDay": "Day", "zozo_CounterHour": "Hour", "zozo_CounterMin": "Min", "zozo_CounterSec": "Sec" };
+/* ]]> */
+    </script>
+    <script type="text/javascript" src="Assets/JS/main.js" id="zozo-theme-js-js"></script>
+    <script type="text/javascript" src="Assets/JS/modernizr.min.js" id="zozo-modernizr-js-js"></script>
+    <script type="text/javascript" src="Assets/JS/jquery.prettyPhoto.js" id="zozo-prettyphoto-js-js"></script>
+    <script type="text/javascript" src="Assets/JS/jquery.rateit.min.js" id="zozo-rate-it-js"></script>
+    <script type="text/javascript" src="Assets/JS/jquery.carousel.min.js" id="zozo-owl-carousel-js-js"></script>
+    <script type="text/javascript" src="Assets/JS/jquery.match-height.js" id="zozo-match-height-js-js"></script>
+    <script type="text/javascript" src="Assets/JS/general.js" id="zozo-general-js-js"></script>
+    <script type="text/javascript" src="Assets/JS/jquery.carousel-custom.js" id="zozo-owl-carousel-custom-js-js"></script>
+    <script type="text/javascript" src="Assets/JS/validate.js" id="zozo-validate-js-js"></script>
+    <script type="text/javascript" src="Assets/JS/validate.min.js" id="zozo-validate-min-js-js"></script>
+    <script type="text/javascript" src="Assets/JS/core.min.js" id="jquery-ui-core-js"></script>
+    <script type="text/javascript" src="Assets/JS/datepicker.min.js" id="jquery-ui-datepicker-js"></script>
+    <script type="text/javascript" id="jquery-ui-datepicker-js-after">
+        /* <![CDATA[ */
+        jQuery(function (jQuery) { jQuery.datepicker.setDefaults({ "closeText": "Close", "currentText": "Today", "monthNames": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"], "monthNamesShort": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], "nextText": "Next", "prevText": "Previous", "dayNames": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"], "dayNamesShort": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"], "dayNamesMin": ["S", "M", "T", "W", "T", "F", "S"], "dateFormat": "MM d, yy", "firstDay": 1, "isRTL": false }); });
+/* ]]> */
+    </script>
+    <script type="text/javascript" src="Assets/JS/html5-fallback.js" id="contact-form-7-html5-fallback-js"></script>
+    <script type="text/javascript" src="Assets/JS/wp-polyfill-inert.min.js" id="wp-polyfill-inert-js"></script>
+    <script type="text/javascript" src="Assets/JS/regenerator-runtime.min.js" id="regenerator-runtime-js"></script>
+    <script type="text/javascript" src="Assets/JS/wp-polyfill.min.js" id="wp-polyfill-js"></script>
+
+
+    <script type="text/javascript" src="Assets/JS/js_composer_front.min.js" id="wpb_composer_front_js-js"></script>
+    <script type="text/javascript" src="Assets/JS/vc-waypoints.min.js" id="vc_waypoints-js"></script>
+    <script type="text/javascript" src="Assets/JS/jquery-appear.min.js" id="ultimate-vc-addons-appear-js"></script>
+    <script type="text/javascript" src="Assets/JS/ultimate_bg.min.js" id="ultimate-vc-addons-row-bg-js"></script>
+    <script></script>
+    <script id="rs-initialisation-scripts">
+        var tpj = jQuery;
+
+        var revapi4;
+
+        if (window.RS_MODULES === undefined) window.RS_MODULES = {};
+        if (RS_MODULES.modules === undefined) RS_MODULES.modules = {};
+        RS_MODULES.modules["revslider41"] = {
+            once: RS_MODULES.modules["revslider41"] !== undefined ? RS_MODULES.modules["revslider41"].once : undefined, init: function () {
+                window.revapi4 = window.revapi4 === undefined || window.revapi4 === null || window.revapi4.length === 0 ? document.getElementById("rev_slider_4_1") : window.revapi4;
+                if (window.revapi4 === null || window.revapi4 === undefined || window.revapi4.length == 0) { window.revapi4initTry = window.revapi4initTry === undefined ? 0 : window.revapi4initTry + 1; if (window.revapi4initTry < 20) requestAnimationFrame(function () { RS_MODULES.modules["revslider41"].init() }); return; }
+                window.revapi4 = jQuery(window.revapi4);
+                if (window.revapi4.revolution == undefined) { revslider_showDoubleJqueryError("rev_slider_4_1"); return; }
+                revapi4.revolutionInit({
+                    revapi: "revapi4",
+                    sliderLayout: "fullscreen",
+                    visibilityLevels: "1240,1024,778,480",
+                    gridwidth: 1170,
+                    gridheight: 550,
+                    lazyType: "smart",
+                    spinner: "spinner0",
+                    perspectiveType: "local",
+                    editorheight: "550,768,960,720",
+                    responsiveLevels: "1240,1024,778,480",
+                    progressBar: { disableProgressBar: true },
+                    navigation: {
+                        mouseScrollNavigation: false,
+                        touch: {
+                            touchenabled: true
+                        },
+                        arrows: {
+                            enable: true,
+                            style: "custom",
+                            hide_onleave: true,
+                            left: {
+                                h_offset: 0
+                            },
+                            right: {
+                                h_offset: 0
+                            }
+                        }
+                    },
+                    viewPort: {
+                        global: true,
+                        globalDist: "-200px",
+                        enable: false,
+                        visible_area: "20%"
+                    },
+                    fallbacks: {
+                        allowHTML5AutoPlayOnAndroid: true
+                    },
+                });
+
+            }
+        } // End of RevInitScript
+
+        if (window.RS_MODULES.checkMinimal !== undefined) { window.RS_MODULES.checkMinimal(); };
+    </script>
+
+</body>
+</html>
